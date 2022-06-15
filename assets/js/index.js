@@ -38,7 +38,7 @@ function rnedrAvart(user){
         // 渲染文本头像
         $('.layui-nav-img').hide()
         let first = name[0].toUpperCase()
-        $('#text-avart').html(first).show()
+        $('.text-avart').html(first).show()
     }
 
 }
